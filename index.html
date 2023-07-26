@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tienda Online</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./main.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+</head>
+<body>
+<header class="main-header">
+    <div class="container container--flex">
+        <div class="main-header__container">
+            <!-- //Titulo -->
+            <h1 class="main-header__title">GLOANA</h1>
+            <span class="icon-menu" id="btn-menu"><i class="fas fa-bars"></i></span>
+            <nav class="main-nav" id="main-nav">
+
+                <!-- //Tabla parte de arriba -->
+                <ul class="menu">
+                    <li class="menu__item"><a href="./index.html" class="menu__link">Tienda</a></li>
+                    <li class="menu__item"><a href="./segunda.html" class="menu__link">Bolsas</a></li>
+                    <li class="menu__item"><a href="./repartidores.html" class="menu__link">Repartidores</a></li>
+                    <li class="menu__item"><a href="./ubicacion.html" class="menu__link">Ubicación</a></li>
+                    <li class="menu__item"><a href="./dudas.html" class="menu__link">Dudas</a></li>
+                    <li class="menu__item"><a href="./reportes.html" class="menu__link">Reportes</a></li>
+
+                    <div class="tip">
+                        <a href="" class="btn-shop">Salir</a>
+                    </div>
+
+                </ul>
+            </nav>
+        </div>
+
+        <!-- //cabecera -->
+        <div class="main-header__container">
+            <span class="main-header__txt">¡Las mejores ofertas!</span>
+            <p class="main-header__txt"><i class="fas fa-phone"></i> Cel 918 122 5657</p>
+        </div>
+        <div class="main-header__container">
+
+            <a href="" class="main-header__link"><i class="fas fa-user"></i></a>
+            <a href="./carrito.html" class="main-header__btn" id="cart-btn">My cart <i class="fas fa-shopping-cart"></i></a>
+
+            <input type="search" class="main-header__input" placeholder="Buscar productos"><i
+                    class="fas fa-search"></i>
+
+        </div>
+    </div>
+</header>
+<!-- //carusel -->
+<div class="container-slider">
+    <div class="slider" id="slider">
+        <div class="slider__section">
+            <img src="./img/230307_B_WW_New_1920x880.webp alt=" class="slider__img">
+            <div class="slider__content">
+
+                <a href="" class="btn-shop">COMPRAR YA</a>
+            </div>
+        </div>
+        <div class="slider__section">
+            <img src="./img/ca.jpg" alt="" class="slider__img">
+            <div class="slider__content">
+                <h2 class="slider__title">Próximamente</h2>
+                <p class="slider__txt">¡Nuevos productos!</p>
+                <a href="" class="btn-shop">COMPRAR YA</a>
+            </div>
+        </div>
+        <div class="slider__section">
+            <img src="./img/carru.jpg" alt="" class="slider__img">
+            <div class="slider__content">
+                <a href="" class="btn-shop">COMPRAR YA</a>
+            </div>
+        </div>
+        <div class="slider__section">
+            <img src="./img/car.jpg" alt="" class="slider__img">
+            <div class="slider__content">
+
+                <a href="" class="btn-shop">COMPRAR YA</a>
+            </div>
+        </div>
+    </div>
+    <div class="slider__btn slider__btn--right" id="btn-right">&#62;</div>
+    <div class="slider__btn slider__btn--left" id="btn-left">&#60;</div>
+</div>
+<!-- //Videos -->
+<center>
+    <video width="1500" height="540" loop autoplay muted>
+        <source src="./video/bolsa.mp4" type="video/mp4">
+        <source src="./video/bolsa.mp4" type="video/ogg">
+    </video>
+    <!-- //tablas -->
+    <main class="main">
+        <div class="container">
+            <h2 class="main-title">¡Lo más Top!</h2>
+            <section class="container-products">
+       <!-- ... Tu código HTML anterior ... -->
+
+<style>
+    .custom-btn {
+      display: inline-block;
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+  
+    .custom-btn:hover {
+      background-color: #45a049;
+    }
+  </style>
+  
+  <!-- ... El resto de tu código HTML ... -->
+  
+  <div class="product">
+    <img src="./img/110234_11bs1ros_f.jpg" alt="" class="product__img" width="10px">
+    <div class="product__description">
+      <h3 class="product__title">MINBOLSO TOTE EN PIEL BOMBEADA COLOR CORAL</h3>
+      <span class="product__price">$5,599.00</span>
+    </div>
+    <br>
+    <button class="product__btn custom-btn" onclick="addToCart(1)">Agregar al carrito</button>
+  </div>
+  <div class="product">
+    <img src="./img/290184_11bn1cue1_f.jpg" alt="" class="product__img">
+    <div class="product__description">
+      <h3 class="product__title">BOLSO BANDOLERA CON SOLAPA EN PIEL GRABADA COLOR CUERO</h3>
+      <span class="product__price">$8,999.00</span>
+    </div>
+    <br>
+    <button class="product__btn custom-btn" onclick="addToCart(2)">Agregar al carrito</button>
+  </div>
+  <div class="product">
+    <img src="./img/290189_14bs1bla_f.jpg" alt="" class="product__img">
+    <div class="product__description">
+      <h3 class="product__title">BOLSO GRANDE PARA EL HOMBRO PIEL BOMBEADA COLOR BLANCO</h3>
+      <span class="product__price">$10,000.00</span>
+    </div>
+    <br>
+    <button class="product__btn custom-btn" onclick="addToCart(3)">Agregar al carrito</button>
+  </div>
+  <div class="product">
+    <img src="./img/290191_11bs1cue_f.jpg" alt="" class="product__img">
+    <div class="product__description">
+      <h3 class="product__title">BOLSO PARA EL HOMBRO PIEL GRABADA COLOR CUERO</h3>
+      <span class="product__price">$9,999.00</span>
+    </div>
+    <br>
+    <button class="product__btn custom-btn" onclick="addToCart(4)">Agregar al carrito</button>
+  </div>
+  <div class="product">
+    <img src="./img/290184_11bn1azu_f.jpg" alt="" class="product__img">
+    <div class="product__description">
+      <h3 class="product__title">BOLSO BANDOLERA CON SOLAPA EN PIEL GRABADA COLOR AZUL</h3>
+      <span class="product__price">$7,999.00</span>
+    </div>
+    <br>
+    <button class="product__btn custom-btn" onclick="addToCart(5)">Agregar al carrito</button>
+  </div>
+  <div class="product">
+    <img src="./img/asu.jpeg" alt="" class="product__img">
+    <div class="product__description">
+      <h3 class="product__title">BOLSO MEDIA LUNA PIEL ANTE Y BOMBEADA COLOR CELESTE</h3>
+      <span class="product__price">$12,999.00</span>
+    </div>
+    <br>
+    <button class="product__btn custom-btn" onclick="addToCart(6)">Agregar al carrito</button>
+  </div>
+  <div class="product">
+    <img src="./img/370376_11bn4ver_f.jpg" alt="" class="product__img">
+    <div class="product__description">
+      <h3 class="product__title">BANDOLERA AJUSTABLE EN NYLON CAPITONADO CON MOTIVOS GEOMÉTRICOS</h3>
+      <span class="product__price">$13,699.00</span>
+    </div>
+    <br>
+    <button class="product__btn custom-btn" onclick="addToCart(7)">Agregar al carrito</button>
+  </div>
+  <div class="product">
+    <img src="./img/290176_11bn1ver_f_1.jpg" alt="" class="product__img">
+    <div class="product__description">
+      <h3 class="product__title">BANDOLERA EN PIEL NAPA GRABADO PRADA CON MAXICADENA</h3>
+      <span class="product__price">$15,290.00</span>
+    </div>
+    <br>
+    <button class="product__btn custom-btn" onclick="addToCart(8)">Agregar al carrito</button>
+  </div>
+  
+                </div>
+                <div class="tip">
+                    <a href="./segunda.html" class="btn-shop">Más productos</a>
+                </div>
+                </colgroup>
+                <div class="tip">
+                    <a href="./pago.html" class="btn-shop">Pagar</a>
+                </div>
+            </section>
+            <section class="container__testimonials">
+                <h2 class="section__title">¿QUIÉNES SOMOS?</h2>
+                <h3 class="testimonial__title">NUESTRA HISTORIA</h3>
+                <p class="testimonial__txt">Nosotros somos una distribuidora de mercancía de las marcas Nicole Lee
+                    como también de la marca de accesorios PRADA,
+                    nosotros nos encargamos de vender productos de esta marca a precio de catálogo para que puedas
+                    disfrutar de los productos publicados, somos encargados de distribuir y vender los productos de las
+                    marcas mencionadas, somos la distribuidora más grande del mercado.
+                </p>
+            </section>
+
+            <!-- //imagenes de inmedio -->
+            <div class="container-editor">
+                <div class="editor__item">
+                    <img src="./img/fondoabajo.png" alt="" class="editor__img">
+                    <p class="editor__circle">Mejor calidad</p>
+                </div>
+                <div class="editor__item">
+                    <img src="./img/fondo abajo1.png" alt="" class="editor__img">
+                    <p class="editor__circle">Nuevos colores</p>
+                </div>
+            </div>
+            <!-- //iconos con informacion -->
+            <section class="container-tips">
+                <div class="tip">
+                    <i class='fas fa-truck' style='font-size:36px'></i>
+                    <h2 class="tip__title">ENTREGANDO MERCANCÍA TODOS LOS DÍAS</h2>
+                    <p class="tip__txt">Para nosotros, la recopilación de ciertos datos personales es necesaria para
+                        llevar a cabo las actividades comerciales, por consiguiente tenemos la obligación de cumplir con
+                        las medidas legales y de seguridad suficientes para proteger aquellos datos personales recabados
+                        para las finalidades que se describen en el presente Aviso de Privacidad.</p>
+                    <a href="./dudas.html" class="btn-shop">Más información</a>
+                </div>
+                <div class="tip">
+                    <i class="fas fa-rocket"></i>
+                    <h2 class="tip__title">La compra más rápida</h2>
+                    <p class="tip__txt">Paga ahora y recibe en 24 horas en la puerta de tu casa</p>
+                    <a href="./dudas.html" class="btn-shop">Más información</a>
+                </div>
+                <div class="tip">
+                    <i class='fas fa-map-marked-alt' style='font-size:36px'></i>
+
+                    <h2 class="tip__title">NUESTRA SUCURSAL</h2>
+                    <p class="tip__txt">Otro medio de compra es nuestra sucursal ubicada en la colonia Burócratas,
+                        calle Tecpatán, No.213 en Tuxtla Gutiérrez, Chiapas. Visítanos y conoce todos nuestros productos
+                        de gran calidad y con los mejores precios</p>
+                    <a href="./dudas.html" class="btn-shop">Más información</a>
+                </div>
+            </section>
+        </div>
+    </main>
+    <!-- //Videos -->
+    
+        <video width="800" height="440" loop autoplay muted>
+            <source src="./video/bolsa.mp4" type="video/mp4">
+            <source src="./video/14.mp4" type="video/ogg">
+        </video>
+        <br>
+        <!-- //pie de pagina -->
+        <br>
+        <footer class="main-footer">
+            <div class="footer__section">
+                <h2 class="footer__title">¿Por qué somos los mejores?</h2>
+                <p class="footer__txt">Contamos con los mejores modelos y marcas del mercado</p>
+            </div>
+            <div class="footer__section">
+                <h2 class="footer__title">Location:</h2>
+                <p class="footer__txt">Universidad Politécnica</p>
+                <h2 class="footer__title">Contact</h2>
+                <p class="footer__txt">Más formas de comprar: llama al 918 122 5657.</p>
+                <p class="footer__txt">Email: sopor@gloana.com</p>
+            </div>
+            <div class="footer__section">
+                <h2 class="footer__title">Redes</h2>
+                <a href="" class="footer__link">Facebook</a>
+                <a href="" class="footer__link">Instagram</a>
+                <a href="" class="footer__link">WhatsApp</a>
+                <a href="" class="footer__link">Telegram</a>
+                <a href="" class="footer__link">Tik Tok</a>
+            </div>
+            <div class="footer__section">
+                <h2 class="footer__title">Suscríbete para recibir más ofertas</h2>
+                <p class="footer__txt">¿Qué esperas?, ¡Suscríbete y no te pierdas ninguna de nuestras ofertas!</p>
+                <input type="email" class="footer__input" placeholder="Ingresa tu correo">
+            </div>
+            <p class="copy">Copyright © 2023 Gloana Inc. Reservados todos los derechos.
+            </p>
+        </footer>
+        <script>
+            let cart = [];
+        
+            function addToCart(productId) {
+                const existingProduct = cart.find(item => item.id === productId);
+        
+                if (existingProduct) {
+                    existingProduct.quantity++;
+                } else {
+                    cart.push({
+                        id: productId,
+                        quantity: 1
+                    });
+                }
+        
+                const cartBtn = document.getElementById('cart-btn');
+                const cartItemCount = document.getElementById('cart-item-count');
+                cartItemCount.textContent = cart.length;
+        
+                alert('Producto agregado al carrito');
+            }
+        
+            const productButtons = document.querySelectorAll('.product__btn');
+            productButtons.forEach(button => {
+                const productId = parseInt(button.dataset.productId);
+                button.addEventListener('click', () => addToCart(productId));
+            });
+        </script>
+        
+        <!-- ... Alerta de carrito ... -->
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.18/dist/sweetalert2.all.min.js"></script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const productButtons = document.querySelectorAll('.product__btn');
+
+    productButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        const productName = button.parentElement.querySelector('.product__title').textContent;
+        showAlert(`Producto seleccionado: ${productName}`);
+      });
+    });
+
+    function showAlert(message) {
+      Swal.fire({
+        text: message,
+        icon: 'success',
+        showConfirmButton: false,
+        timer: 3000,
+        customClass: {
+          popup: 'custom-alert',
+          arrow: 'custom-arrow'
+        },
+        didOpen: (popup) => {
+          const arrow = document.querySelector('.custom-arrow .swal2-arrow');
+          arrow.innerHTML = '';
+        }
+      });
+    }
+  });
+</script>
+
+<style>
+  .custom-alert {
+    border: none;
+    background-color: #f5f5f5;
+    color: #333;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+
+  .custom-arrow {
+    position: relative;
+  }
+
+  .custom-arrow .swal2-arrow {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-left: -12px;
+  }
+</style>
+
+</body>
+</html>
+
+</body>
+</html>
+
