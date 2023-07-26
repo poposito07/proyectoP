@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Tienda Online</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="./main3.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+        
+    </head>
+    <body>
+
+        <header class="main-header">
+            <div class="container container--flex">
+              <div class="main-header__container">
+                <!-- //Titulo -->
+                <h1 class="main-header__title">GLOANA</h1>
+                <span class="icon-menu" id="btn-menu"><i class="fas fa-bars"></i></span>
+                <nav class="main-nav" id="main-nav">
+                  <!-- //Tabla parte de arriba -->
+                  <ul class="menu">
+                    <li class="menu__item"><a href="./index.html" class="menu__link">Tienda</a></li>
+                    <li class="menu__item"><a href="./segunda.html" class="menu__link">Bolsas</a></li>
+                    <li class="menu__item"><a href="./repartidores.html" class="menu__link">Repartidores</a></li>
+                    <li class="menu__item"><a href="./ubicacion.html" class="menu__link">Ubicación</a></li>
+                    <li class="menu__item"><a href="./dudas.html" class="menu__link">Dudas</a></li>
+                    <li class="menu__item"><a href="./reportes.html" class="menu__link">Reportes</a></li>
+  <div class="tip">
+                        <a href="./index.html" class="btn-shop">Salir</a>
+                    </div>
+                  </ul>
+                </nav>
+              </div>
+              
+              <!-- //cabecera -->
+              <div class="main-header__container">
+                <span class="main-header__txt">!Las mejores ofertas!</span>
+                <p class="main-header__txt"><i class="fas fa-phone"></i> Cel 918 122 5657 </p>
+              </div>
+              <div class="main-header__container">
+                
+                <a href="" class="main-header__link"><i class="fas fa-user"></i></a>
+                <a href="" class="main-header__btn">My cart <i class="fas fa-shopping-cart"></i></a>
+                
+                <input type="search" class="main-header__input" placeholder="Buscar productos"><i class="fas fa-search"></i>
+              </div>
+            </div>
+          </header>
+          <!-- //carusel -->
+          <div class="container-slider">
+            <div class="slider" id="slider">
+              <div class="slider__section">
+                <img src="./img/c.webp" alt="" class="slider__img">
+                <div class="slider__content">
+                  
+                  <a href="" class="btn-shop">COMPRAR YA</a>
+                </div>
+              </div>
+              <div class="slider__section">
+                <img src="./img/carru.jpg" alt="" class="slider__img">
+                <div class="slider__content">
+                
+                  <a href="" class="btn-shop">COMPRAR YA</a>
+                </div>
+              </div>
+              <div class="slider__section">
+                <img src="./img/car.jpg" alt="" class="slider__img">
+                <div class="slider__content">
+                  
+                  <a href="" class="btn-shop">COMPRAR YA</a>
+                </div>
+              </div>
+              <div class="slider__section">
+                <img src="./img/ca.jpg" alt="" class="slider__img">
+                <div class="slider__content">
+                  <h2 class="slider__title">Próximamente</h2>
+                  <p class="slider__txt">!Nuevos productos!</p>
+                  <a href="" class="btn-shop">COMPRAR YA</a>
+                </div>
+              </div>
+            </div>
+            <div class="slider__btn slider__btn--right" id="btn-right">&#62;</div>
+            <div class="slider__btn slider__btn--left" id="btn-left">&#60;</div>
+          </div>
+
+          <!-- Datos -->
+          <section class="contact-box">
+            <div class="row no-gutters bg-dark">
+                <div class="col-xl-5 col-lg-12 register-bg">
+                 <div class="position-absolute testiomonial p-4">
+                     
+                 </div>
+                </div>
+                <div class="col-xl-7 col-lg-12 d-flex">
+                     <div class="container align-self-center p-6">
+                         <div class="form-group">
+                         </div>
+ 
+      
+<!-- 00 -->
+<style>
+    .report-form {
+      max-width: 500px;
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      background-color: #f5f5f5;
+    }
+  
+    .report-form h2 {
+      margin-top: 0;
+    }
+  
+    .report-form .form-group {
+      margin-bottom: 20px;
+    }
+  
+    .report-form label {
+      display: block;
+      font-weight: bold;
+    }
+  
+    .report-form input[type="text"],
+    .report-form textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      resize: vertical;
+    }
+  
+    .report-form button[type="submit"] {
+      display: inline-block;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      background-color: #4caf50;
+      color: #fff;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  
+    .report-form button[type="submit"]:hover {
+      background-color: #45a049;
+    }
+  </style>
+  
+  <script>
+    function showSuccessAlert() {
+      alert("Reporte realizado");
+    }
+  </script>
+  
+  <section class="report-section">
+    <div class="container">
+      <h2 class="section-title">Realizar un Reporte</h2>
+      <form class="report-form" onsubmit="showSuccessAlert(); return false;">
+        <div class="form-group">
+          <label for="report-name">Nombre:</label>
+          <input type="text" id="report-name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="report-email">Correo electrónico:</label>
+          <input type="text" id="report-email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="report-message">Mensaje:</label>
+          <textarea id="report-message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit"  onclick="mostrarAlerta() ">Enviar Reporte</button>
+
+      </form>
+    </div>
+  </section>
+</script>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Alerta Personalizada</title>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.18/dist/sweetalert2.all.min.js"></script>
+  <style>
+    .custom-alert {
+      border: none;
+      background-color: #ffffff;
+      color: #333333;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    }
+
+    .custom-arrow {
+      position: relative;
+    }
+
+    .custom-arrow .swal2-arrow {
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      margin-left: -12px;
+    }
+  </style>
+</head>
+<body>
+    <script>
+        function mostrarAlerta() {
+            alert("Pedido realizado con éxito");
+        }
+    </script>
+
+  <script>
+    function mostrarAlerta() {
+      Swal.fire({
+        text: 'Pedido realizado con éxito',
+        icon: 'success',
+        showConfirmButton: false,
+        timer: 3000,
+        customClass: {
+          popup: 'custom-alert',
+          arrow: 'custom-arrow'
+        },
+        didOpen: (popup) => {
+          const arrow = document.querySelector('.custom-arrow .swal2-arrow');
+          arrow.innerHTML = '';
+        }
+      });
+    }
+  </script>
+</body>
+</html>  
+
+              <!-- //iconos con informacion -->
+              <section class="container-tips">
+                <div class="tip">
+                  <i class='fas fa-truck' style='font-size:36px'></i>
+                  <h2 class="tip__title">ENTREGANDO MERCANCIA TODOS LOS DIAS</h2>
+                  <p class="tip__txt">Para nosotros, la recopilación de ciertos datos personales es necesaria para llevar a cabo las actividades comerciales, por consiguiente tenemos la obligación de cumplir con las medidas legales y de seguridad suficientes para proteger aquellos datos personales recabados para las finalidades que se describen en el presente Aviso de Privacidad.</p>
+                  <a href="./dudas.html" class="btn-shop">Mas informacion</a>
+                </div>
+                <div class="tip">
+                 <i class="fas fa-rocket"></i>
+                  <h2 class="tip__title">La compra mas rapida</h2>
+                  <p class="tip__txt">Paga ahora y recibe en 24 y en la puerta de tu casa. Envió gratis a compras mayores a $999</p>
+                  <a href="./dudas.html" class="btn-shop">Más informacion</a>
+                </div>
+                <div class="tip">
+                  <i class='fas fa-map-marked-alt' style='font-size:36px'></i>
+
+                  <h2 class="tip__title">NUESTRA SUCURSAL</h2>
+                  <p class="tip__txt">Como otro medio de compra es nuestra sucursal ubicada en la colonia Burocratas, calle Tecpatan, No.213 en Tuxtla Gutierrez, Chiapas. Visitanos y conoce todos nuestros productos de gran calidad y con los mejores precios</p>
+                  <a href="./dudas.html" class="btn-shop">Más informacion</a>
+                </div>  
+              </section>
+            </div>
+          </main>
+          <!-- //pie de pagina -->
+          <footer class="main-footer">
+            <div class="footer__section">
+              <h2 class="footer__title">¿Por qué somos los mejores?</h2>
+              <p class="footer__txt">Contamos con los mejores modelos y marcas del mercado</p>
+            </div>
+            <div class="footer__section">
+              <h2 class="footer__title">Location :</h2>
+              <p class="footer__txt">Universidad Politecnica</p>
+              <h2 class="footer__title">Contact</h2>
+              <p class="footer__txt">Más formas de comprar: llama al 918 122 5657.</p>
+              <p class="footer__txt">Email : sopor@gloana.com</p>
+            </div>
+            <div class="footer__section">
+              <h2 class="footer__title">Redes</h2>
+              <a href="" class="footer__link">Facebook</a>
+              <a href="" class="footer__link">Instagram</a>
+              <a href="" class="footer__link">WhatsApp</a>
+              <a href="" class="footer__link">Telegram</a>
+              <a href="" class="footer__link">Tik Tok</a>
+            </div>
+            <div class="footer__section">
+              <h2 class="footer__title">Suscribete para resibir mas ofertas</h2>
+              <p class="footer__txt">¿Que esperas? !Suscribete y no te pierdas ninguna de nuestras ofertas!</p>
+              <input type="email" class="footer__input" placeholder="Ingresa tu correo">
+            </div>
+            <p class="copy">Copyright © 2023 Gloana Inc. Reservados todos los derechos.</p>
+          </footer>
+          <script src="slider.js"></script>
+       
+   
+          
+    </body>
+</html>
+

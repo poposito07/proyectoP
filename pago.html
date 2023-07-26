@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Tienda Online</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="./main3.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+        
+    </head>
+    <body>
+
+        <header class="main-header">
+            <div class="container container--flex">
+              <div class="main-header__container">
+                <!-- //Titulo -->
+                <h1 class="main-header__title">GLOANA</h1>
+                <span class="icon-menu" id="btn-menu"><i class="fas fa-bars"></i></span>
+                <nav class="main-nav" id="main-nav">
+                  <!-- //Tabla parte de arriba -->
+                  <ul class="menu">
+                    <li class="menu__item"><a href="./index.html" class="menu__link">Tienda</a></li>
+                    <li class="menu__item"><a href="./segunda.html" class="menu__link">Bolsas</a></li>
+                    <li class="menu__item"><a href="./repartidores.html" class="menu__link">Repartidores</a></li>
+                    <li class="menu__item"><a href="./ubicacion.html" class="menu__link">Ubicación</a></li>
+                    <li class="menu__item"><a href="./dudas.html" class="menu__link">Dudas</a></li>
+                    <li class="menu__item"><a href="./reportes.html" class="menu__link">Reportes</a></li>
+                    <div class="tip">
+                      <a href="./index.html" class="btn-shop">Salir</a>
+                  </div>
+                  </ul>
+                </nav>
+              </div>
+              
+              <!-- //cabecera -->
+              <div class="main-header__container">
+                <span class="main-header__txt">!Las mejores ofertas!</span>
+                <p class="main-header__txt"><i class="fas fa-phone"></i> Cel 918 122 5657 </p>
+              </div>
+              <div class="main-header__container">
+                
+                <a href="" class="main-header__link"><i class="fas fa-user"></i></a>
+                <a href="" class="main-header__btn">My cart <i class="fas fa-shopping-cart"></i></a>
+                
+                <input type="search" class="main-header__input" placeholder="Buscar productos"><i class="fas fa-search"></i>
+              </div>
+            </div>
+          </header>
+          <!-- //carusel -->
+          <div class="container-slider">
+            <div class="slider" id="slider">
+              <div class="slider__section">
+                <img src="./img/c.webp" alt="" class="slider__img">
+                <div class="slider__content">
+                  
+                  <a href="" class="btn-shop">COMPRAR YA</a>
+                </div>
+              </div>
+              <div class="slider__section">
+                <img src="./img/carru.jpg" alt="" class="slider__img">
+                <div class="slider__content">
+                
+                  <a href="" class="btn-shop">COMPRAR YA</a>
+                </div>
+              </div>
+              <div class="slider__section">
+                <img src="./img/car.jpg" alt="" class="slider__img">
+                <div class="slider__content">
+                  
+                  <a href="" class="btn-shop">COMPRAR YA</a>
+                </div>
+              </div>
+              <div class="slider__section">
+                <img src="./img/ca.jpg" alt="" class="slider__img">
+                <div class="slider__content">
+                  <h2 class="slider__title">Próximamente</h2>
+                  <p class="slider__txt">!Nuevos productos!</p>
+                  <a href="" class="btn-shop">COMPRAR YA</a>
+                </div>
+              </div>
+            </div>
+            <div class="slider__btn slider__btn--right" id="btn-right">&#62;</div>
+            <div class="slider__btn slider__btn--left" id="btn-left">&#60;</div>
+          </div>
+
+          <!-- Datos -->
+          <section class="contact-box">
+            <div class="row no-gutters bg-dark">
+                <div class="col-xl-5 col-lg-12 register-bg">
+                 <div class="position-absolute testiomonial p-4">
+                     <h3 class="font-weight-bold text-light">Las mejores marcas</h3>
+                     <p class="lead text-light">La mejor calidad y los mejores precios</p>
+                 </div>
+                </div>
+                <div class="col-xl-7 col-lg-12 d-flex">
+                     <div class="container align-self-center p-6">
+                         <h1 class="font-weight-bold mb-3">Ingresa los siguientes datos tu compra</h1>
+                         <div class="form-group">
+                         </div>
+     
+                         <form>
+                             <div class="form-row mb-2">
+                                 <div class="form-group col-md-6">
+                                     <label class="font-weight-bold">Nombre <span class="text-danger">*</span></label>
+                                     <input type="text" class="form-control" placeholder="Tu nombre">
+                                 </div>
+                                 <br>
+                                 <div class="form-group col-md-6">
+                                     <label class="font-weight-bold">Apellido <span class="text-danger">*</span></label>
+                                     <input type="text" class="form-control" placeholder="Tu apellido">
+                                 </div>
+                                 <br>
+                             </div>
+                             <div class="form-group mb-3">
+                                 <label class="font-weight-bold">Correo electrónico <span class="text-danger">*</span></label>
+                                 <input type="email" class="form-control" placeholder="Ingresa tu correo electrónico">
+                             </div>
+                             <br>
+                             <div class="form-group mb-3">
+                                 <label class="font-weight-bold">Código postal <span class="text-danger">*</span></label>
+                                 <input type="text" class="form-control" placeholder="Ingresa tu código postal">
+                             </div>
+                             <br>
+                             <div class="form-group mb-3">
+                                <label class="font-weight-bold">País <span class="text-danger">*</span></label>
+                                <input type="text" class="form-control" placeholder="Ingresa tu país">
+                            </div>
+                            <br>
+                            <div class="form-group mb-3">
+                                <label class="font-weight-bold">Lugar <span class="text-danger">*</span></label>
+                                <input type="text" class="form-control" placeholder="Ingresa un lugar">
+                            </div>
+                            <br>
+                            <div class="form-group mb-3">
+                                <label class="font-weight-bold">Dirección <span class="text-danger">*</span></label>
+                                <input type="text" class="form-control" placeholder="Ingresa tu dirección">
+                            </div>
+                            <br>
+                            <div class="form-group mb-3">
+                                <label class="font-weight-bold">Referencia <span class="text-danger">*</span></label>
+                                <input type="text" class="form-control" placeholder="Ingresa una referencia para la entrega">
+                            </div>
+                            <form>
+                              <!-- Otros campos del formulario -->
+                            
+                              <div class="form-group mb-3">
+                                <label class="font-weight-bold">Repartidores</label>
+                                <select class="form-control">
+                                  <option aria-placeholder="Repartidor1">Seleccione un repartidor</option>
+                                  <option value="Repartidor1">Juan Danon</option>
+                                  <option value="Repartidor2">Samuel Morales</option>
+                                  <option value="Repartidor3">Martin Estrada</option>
+                                  <option value="Repartidor4">Brandon Gómez</option>
+                                  <option value="Repartidor4">Alejandro Gómez</option>
+
+                                </select>
+                              </div>
+                            
+                          <br><br>
+
+                          <!-- Tienda -->
+                          <div class="form-group mb-3">
+                            <label class="font-weight-bold">Tienda</label>
+                            <select class="form-control">
+                              <option aria-placeholder="tienda1">Seleccione su tienda mas sercana</option>
+                              <option value="tienda1">Monterrey</option>
+                              <option value="tienda2">Guadalajara</option>
+                              <option value="tienda3">Tuxtla Gutiérrez (Colonia Burocratas)</option>
+                              <option value="tienda4">Tuxtla Gutiérrez (Plaza Cristal)</option>
+                              <option value="tienda4">Tuxtla Gutiérrez (Plaza Ambar)</option>
+
+                            </select>
+                            <br><br>
+                          </div>
+                          <!-- fin -->
+                            <!-- Metodo de pago -->
+                            <form>
+                              <!-- Otros campos del formulario -->
+                            
+                              <div class="form-group mb-3">
+                                <label class="font-weight-bold">Método de pago</label>
+                                <select class="form-control" id="metodoPago" onchange="toggleCamposPago()">
+                                  <option value="efectivo">Efectivo</option>
+                                  <option value="tarjeta">Tarjeta de crédito</option>
+                                </select>
+                              </div>
+                            
+                              <div id="camposTarjeta" style="display: none;">
+                                <div class="form-group mb-3">
+                                  <label class="font-weight-bold">Número de tarjeta</label>
+                                  <input type="text" class="form-control" placeholder="Ingresa el número de tarjeta">
+                                </div>
+                                <div class="form-group mb-3">
+                                  <label class="font-weight-bold">Fecha de vencimiento</label>
+                                  <input type="text" class="form-control" placeholder="Ingresa la fecha de vencimiento">
+                                </div>
+                                <div class="form-group mb-3">
+                                  <label class="font-weight-bold">Código de seguridad</label>
+                                  <input type="text" class="form-control" placeholder="Ingresa el código de seguridad">
+                                </div>
+                              </div>
+                            
+                             
+                            
+                            <script>
+                              function toggleCamposPago() {
+                                const metodoPago = document.getElementById('metodoPago').value;
+                                const camposTarjeta = document.getElementById('camposTarjeta');
+                                const camposEfectivo = document.getElementById('camposEfectivo');
+                            
+                                if (metodoPago === 'tarjeta') {
+                                  camposTarjeta.style.display = 'block';
+                                  camposEfectivo.style.display = 'none';
+                                } else {
+                                  camposTarjeta.style.display = 'none';
+                                  camposEfectivo.style.display = 'block';
+                                }
+                              }
+                            </script>
+                            <br><br>
+
+                            <!-- Terminos -->
+                             <div class="form-group mb-5">
+                                 <div class="form-check">
+                                     <input class="form-check-input" type="checkbox">
+                                     <label class="form-check-label text-muted">Al seleccionar esta casilla aceptas nuestro aviso de privacidad y los términos y condiciones</label>
+                                     <p>Paga hasta a 6 meses sin intereses</p>
+                                     <p>Para pagar con cheque o transferencia bancaria, llama al 918 122 5657</p>
+                                     <p>GRACIAS POR SU COMPRA</p>
+                                 </div>
+                                 <br>
+                             </div>
+                             <div class="tip">
+                              <button type="button" onclick="mostrarAlerta()" class="btn-shop">Pagar</button>
+                              <div class="tip">
+                                    <a href="./segunda.html" class="btn-shop">Seguir comprando</a>
+                             </form>
+                         </form>
+                         <script>
+                          function mostrarAlerta() {
+                              alert("Pedido realizado con éxito");
+                          }
+                      </script>
+                   
+                     <head>
+                       <title>Alerta Personalizada</title>
+                       <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.18/dist/sweetalert2.all.min.js"></script>
+                       <style>
+                         .custom-alert {
+                           border: none;
+                           background-color: #ffffff;
+                           color: #333333;
+                           padding: 20px;
+                           border-radius: 5px;
+                           box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+                         }
+                     
+                         .custom-arrow {
+                           position: relative;
+                         }
+                     
+                         .custom-arrow .swal2-arrow {
+                           position: absolute;
+                           top: 100%;
+                           left: 50%;
+                           transform: translateX(-50%);
+                           margin-left: -12px;
+                         }
+                       </style>
+                     </head>
+                     <body>
+                     
+                     
+                       <script>
+                         function mostrarAlerta() {
+                           Swal.fire({
+                             text: 'Pedido realizado con éxito',
+                             icon: 'success',
+                             showConfirmButton: false,
+                             timer: 3000,
+                             customClass: {
+                               popup: 'custom-alert',
+                               arrow: 'custom-arrow'
+                             },
+                             didOpen: (popup) => {
+                               const arrow = document.querySelector('.custom-arrow .swal2-arrow');
+                               arrow.innerHTML = '';
+                             }
+                           });
+                         }
+                       </script>
+                     </body>
+                     
+                    
+     
+      
+            <!-- //imagenes de inmedio -->
+              <div class="container-editor">
+                <div class="editor__item">
+                  <img src="./img/c.webp" alt="" class="editor__img">
+                  <p class="editor__circle">Nuevos colores</p>
+                </div>
+                <div class="editor__item">
+                  <img src="./img/carru.jpg" alt="" class="editor__img">
+                  <p class="editor__circle">Precios accesibles</p>
+                </div>
+              </div>
+              <!-- //iconos con informacion -->
+              <section class="container-tips">
+                <div class="tip">
+                  <i class='fas fa-truck' style='font-size:36px'></i>
+                  <h2 class="tip__title">ENTREGANDO MERCANCIA TODOS LOS DIAS</h2>
+                  <p class="tip__txt">Para nosotros, la recopilación de ciertos datos personales es necesaria para llevar a cabo las actividades comerciales, por consiguiente tenemos la obligación de cumplir con las medidas legales y de seguridad suficientes para proteger aquellos datos personales recabados para las finalidades que se describen en el presente Aviso de Privacidad.</p>
+                  <a href="" class="btn-shop">Mas informacion</a>
+                </div>
+                <div class="tip">
+                 <i class="fas fa-rocket"></i>
+                  <h2 class="tip__title">La compra más rápida</h2>
+                  <p class="tip__txt">Paga ahora y recibe en 24 y en la puerta de tu casa. Envió gratis a compras mayores a $999</p>
+                  <a href="" class="btn-shop">Más información</a>
+                </div>
+                <div class="tip">
+                  <i class='fas fa-map-marked-alt' style='font-size:36px'></i>
+
+                  <h2 class="tip__title">NUESTRA SUCURSAL</h2>
+                  <p class="tip__txt">Como otro medio de compra es nuestra sucursal ubicada en la colonia Burocratas, calle Tecpatan, No.213, en Tuxtla Gutiérrez, Chiapas. Visítanos y conoce todos nuestros productos de gran calidad y con los mejores precios</p>
+                  <a href="" class="btn-shop">Más información</a>
+                </div>  
+              </section>
+            </div>
+        
+          </main>
+        
+          <!-- //pie de pagina -->
+          <footer class="main-footer">
+            <div class="footer__section">
+              <h2 class="footer__title">¿Por qué somos los mejores?</h2>
+              <p class="footer__txt">Contamos con los mejores modelos y marcas del mercado</p>
+            </div>
+            <div class="footer__section">
+              <h2 class="footer__title">Location :</h2>
+              <p class="footer__txt">Universidad Politecnica</p>
+              <h2 class="footer__title">Contact</h2>
+              <p class="footer__txt">Más formas de comprar: llama al 918 122 5657.</p>
+              <p class="footer__txt">Email : sopor@gloana.com</p>
+            </div>
+            <div class="footer__section">
+              <h2 class="footer__title">Redes</h2>
+              <a href="" class="footer__link">Facebook</a>
+              <a href="" class="footer__link">Instagram</a>
+              <a href="" class="footer__link">WhatsApp</a>
+              <a href="" class="footer__link">Telegram</a>
+              <a href="" class="footer__link">Tik Tok</a>
+            </div>
+            <div class="footer__section">
+              <h2 class="footer__title">Suscribete para resibir más ofertas</h2>
+              <p class="footer__txt">¿Que esperas? !Suscribete y no te pierdas ninguna de nuestras ofertas!</p>
+              <input type="email" class="footer__input" placeholder="Ingresa tu correo">
+            </div>
+            <p class="copy">Copyright © 2023 Gloana Inc. Reservados todos los derechos.</p>
+          </footer>
+          <script src="slider.js"></script>
+       
+        
+          
+    </body>
+</html>
+

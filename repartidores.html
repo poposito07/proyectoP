@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Tienda Online</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="./main.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    </head>
+    <body>
+        <header class="main-header">
+            <div class="container container--flex">
+              <div class="main-header__container">
+                <!-- //Titulo -->
+                <h1 class="main-header__title">GLOANA</h1>
+                <span class="icon-menu" id="btn-menu"><i class="fas fa-bars"></i></span>
+                <nav class="main-nav" id="main-nav">
+                  <!-- //Tabla parte de arriba -->
+                  <ul class="menu">
+                    <li class="menu__item"><a href="./index.html" class="menu__link">Tienda</a></li>
+                    <li class="menu__item"><a href="./segunda.html" class="menu__link">Bolsas</a></li>
+                    <li class="menu__item"><a href="./repartidores.html" class="menu__link">Repartidores</a></li>
+                    <li class="menu__item"><a href="./ubicacion.html" class="menu__link">Ubicación</a></li>
+                    <li class="menu__item"><a href="./dudas.html" class="menu__link">Dudas</a></li>
+                    <li class="menu__item"><a href="./reportes.html" class="menu__link">Reportes</a></li>
+                    <div class="tip">
+                      <a href="./index.html" class="btn-shop">Salir</a>
+               </form>
+
+                  </ul>
+                </nav>
+              </div>
+              
+              <!-- //cabecera -->
+              <div class="main-header__container">
+                <span class="main-header__txt">!Las mejores ofertas!</span>
+                <p class="main-header__txt"><i class="fas fa-phone"></i> Cel 918 122 5657 </p>
+              </div>
+              <div class="main-header__container">
+                
+                <a href="" class="main-header__link"><i class="fas fa-user"></i></a>
+                <a href="" class="main-header__btn">My cart <i class="fas fa-shopping-cart"></i></a>
+                
+                <input type="search" class="main-header__input" placeholder="Buscar productos"><i class="fas fa-search"></i>
+                
+              </div>
+            </div>
+          </header>
+          <!-- //carusel -->
+          <div class="container-slider">
+            <div class="slider" id="slider">
+              <div class="slider__section">
+                <img src="./img/c.webp" alt="" class="slider__img">
+                <div class="slider__content">
+                  
+                  <a href="" class="btn-shop">COMPRAR YA</a>
+                </div>
+              </div>
+              <div class="slider__section">
+                <img src="./img/ca.jpg" alt="" class="slider__img">
+                <div class="slider__content">
+                  <h2 class="slider__title">Próximamente</h2>
+                  <p class="slider__txt">!Nuevos productos!</p>
+                  <a href="" class="btn-shop">COMPRAR YA</a>
+                </div>
+              </div>
+              <div class="slider__section">
+                <img src="./img/carru.jpg" alt="" class="slider__img">
+                <div class="slider__content">
+                  <a href="" class="btn-shop">COMPRAR YA</a>
+                </div>
+              </div>
+              <div class="slider__section">
+                <img src="./img/car.jpg" alt="" class="slider__img">
+                <div class="slider__content">
+                 
+                  <a href="" class="btn-shop">COMPRAR YA</a>
+                </div>
+              </div>
+            </div>
+            <div class="slider__btn slider__btn--right" id="btn-right">&#62;</div>
+            <div class="slider__btn slider__btn--left" id="btn-left">&#60;</div>
+          </div>
+           <!-- //Videos -->
+           <center>
+           <video width="1500" height="540" loop autoplay muted> 
+            <source src="./video/bolsa.mp4" type="video/mp4">
+            <source src="./video/bolsa.mp4" type="video/ogg">
+          </video>
+          <!-- //tablas -->
+          <main class="main">
+            <!DOCTYPE html>
+            <html>
+            <head>
+                <title>Sistema de Cuadros de Repartidores</title>
+                <style>
+                    .repartidor {
+                        display: inline-block;
+                        margin: 80px;
+                        border: 1px solid #ccc;
+                        text-align: center;
+                    }
+                    .repartidor img {
+                        width: 200px;
+                        height: 200px;
+                        border-radius: 0%;
+                        margin-bottom: 10px;
+                    }
+                </style>
+            </head>
+            <body>
+                <div class="repartidor">
+                    <img src="./img/1.avif" alt="" class="repartidor" width="10px">
+                    <h3>Nombre: Juan Danon</h3>
+                    <p>Ubicación: En tienda</p>
+                    <p>Edad: 20 años</p>
+                </div>
+            
+                <div class="repartidor">
+                    <img src="./img/3.avif" alt="" class="repartidor" width="50px">
+                    <h3>Nombre: Samuel Morales</h3>
+                    <p>Ubicación: En tienda</p>
+                    <p>Edad: 19 años</p>
+                </div>
+
+                <div class="repartidor">
+                    <img src="./img/matin.png" alt="" class="repartidor" width="50px">
+                    <h3>Nombre: Martin Estrada</h3>
+                    <p>Ubicación: En tienda</p>
+                    <p>Edad: 35 años</p>
+                </div>
+
+                <div class="repartidor">
+                    <img src="./img/4.avif" alt="" class="repartidor" width="50px">
+                    <h3>Nombre: Brandon Gómez</h3>
+                    <p>Ubicación: En tienda</p>
+                    <p>Edad: 25 años</p>
+                </div>
+
+             <div class="repartidor">
+                <img src="./img/5.avif" alt="" class="repartidor" width="50px">
+                <h3>Nombre: Alejandro Gómez</h3>
+                    <p>Ubicación: En tienda</p>
+                    <p>Edad: 30 años</p>
+                </div>
+                <!-- Agrega más divs de repartidores según sea necesario -->
+            
+            </body>
+            </html>
+            
+                <!-- siguiente -->
+                <div class="tip">
+                   <a href="./segunda.html" class="btn-shop">Más productos</a>
+                 </div>                  
+                </colgroup>
+                <div class="tip">
+                  <a href="./pago.html" class="btn-shop">Pagar</a>
+              </section>
+              <section class="container__testimonials">
+                <h2 class="section__title">¿QUIENES SOMOS?</h2>
+                <h3 class="testimonial__title">NUESTRA HISTORIA</h3>
+                <p class="testimonial__txt">Nosotros somos una distribuidora de mercancía de las marcas Nicole Lee
+                  como también de la marca de accesorios PRADA,
+                  nosotros nos encargamos de vender productos de esta marca a precio de catálogo para que puedas
+                  disfrutar de los productos publicados, somos encargados de distribuir y vender los productos de las
+                  marcas mencionadas, somos la distribuidora más grande del mercado.
+                </p>
+              </section>
+              
+            <!-- //imagenes de inmedio -->
+              <div class="container-editor">
+                <div class="editor__item">
+                  <img src="./img/fondoabajo.png" alt="" class="editor__img">
+                  <p class="editor__circle">Más grande</p>
+                </div>
+                <div class="editor__item">
+                  <img src="./img/fondo abajo1.png" alt="" class="editor__img">
+                  <p class="editor__circle">Los mejores iconos</p>
+                </div>
+              </div>
+              <!-- //iconos con informacion -->
+              <section class="container-tips">
+                <div class="tip">
+                  <i class='fas fa-truck' style='font-size:36px'></i>
+                  <h2 class="tip__title">ENTREGANDO MERCANCIA TODOS LOS DIAS</h2>
+                  <p class="tip__txt">Para nosotros, la recopilación de ciertos datos personales es necesaria para llevar a cabo las actividades comerciales, por consiguiente tenemos la obligación de cumplir con las medidas legales y de seguridad suficientes para proteger aquellos datos personales recabados para las finalidades que se describen en el presente Aviso de Privacidad.</p>
+                  <a href="./dudas.html" class="btn-shop">Más informacion</a>
+                </div>
+                <div class="tip">
+                 <i class="fas fa-rocket"></i>
+                  <h2 class="tip__title">La compra más rapida</h2>
+                  <p class="tip__txt">Paga ahora y recibe en 24 y en la puerta de tu casa</p>
+                  <a href="./dudas.html" class="btn-shop">Más informacion</a>
+                </div>
+                <div class="tip">
+                  <i class='fas fa-map-marked-alt' style='font-size:36px'></i>
+
+                  <h2 class="tip__title">NUESTRA SUCURSAL</h2>
+                  <p class="tip__txt">Como otro medio de compra es nuestra sucursal ubicada en la colonia Burocratas, calle Tecpatan, No.213 en Tuxtla Gutierrez, Chiapas. Visitanos y conoce todos nuestros productos de gran calidad y con los mejores precios</p>
+                  <a href="./dudas.html" class="btn-shop">Mas informacion</a>
+                </div>
+              </section>
+            </div>
+          </main>
+             <!-- //Videos -->
+             <center>
+              <video width="800" height="440" loop autoplay muted> 
+               <source src="./video/bolsa.mp4" type="video/mp4">
+               <source src="./video/14.mp4" type="video/ogg">
+             </video>
+             <br>
+          <!-- //pie de pagina -->
+          <br>
+          <footer class="main-footer">
+            <div class="footer__section">
+                <h2 class="footer__title">¿Por qué somos los mejores?</h2>
+                <p class="footer__txt">Contamos con los mejores modelos y marcas del mercado</p>
+              </div>
+              <div class="footer__section">
+                <h2 class="footer__title">Location :</h2>
+                <p class="footer__txt">Universidad Politecnica</p>
+                <h2 class="footer__title">Contact</h2>
+                <p class="footer__txt">Más formas de comprar: llama al 918 122 5657.</p>
+                <p class="footer__txt">Email : sopor@gloana.com</p>
+              </div>
+              <div class="footer__section">
+                <h2 class="footer__title">Redes</h2>
+                <a href="" class="footer__link">Facebook</a>
+                <a href="" class="footer__link">Instagram</a>
+                <a href="" class="footer__link">WhatsApp</a>
+                <a href="" class="footer__link">Telegram</a>
+                <a href="" class="footer__link">Tik Tok</a>
+              </div>
+              <div class="footer__section">
+                <h2 class="footer__title">Suscribete para resibir mas ofertas</h2>
+                <p class="footer__txt">¿Que esperas? !Suscribete y no te pierdas ninguna de nuestras ofertas!</p>
+                <input type="email" class="footer__input" placeholder="Ingresa tu correo">
+              </div>
+              <p class="copy">Copyright © 2023 Gloana Inc. Reservados todos los derechos.</p>
+            </footer>
+          <script src="slider.js"></script>
+    </body>
+</html>
